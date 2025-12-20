@@ -16,7 +16,7 @@
   
   .like-icon .heart {
     transition: fill .1s;
-    transform-origin: center center;
+    transform-origin: center center; /*центр svg*/
   }
   
   /* Сердце */
@@ -86,7 +86,7 @@
   .like-icon.is-liked .heart {
     animation: scale .3s ease;
   }
-  
+  /* кадры анимации*/
   @keyframes scale {
     from {
       scale: 0;

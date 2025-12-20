@@ -1,4 +1,5 @@
-:root {
+/*корневой элемент*/
+:root { 
   /* шрифты */
   --main-font: 'Inter';
   --accent-font: 'PressStart2P-Regular';
@@ -15,9 +16,7 @@
   --linear-gradient-first: #e7e7e7;
   --linear-gradient-second: #1a1a1a;
 
-  /* веса шрифта */
+  /* насыщенность шрифта */
   --header-weight: 700;
   --text-weight: 400;
-
-  --border-color: #000;
 }
